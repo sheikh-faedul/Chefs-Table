@@ -1,0 +1,102 @@
+[
+    {
+      "recipe_img": "https://i.ibb.co.com/gMh8zrvk/spaghetti-bolognese-7517639-1280.png",
+      "id": 1,
+      "recipe_name": "Spaghetti Bolognese",
+      "description": "A classic Italian pasta dish made with a rich, meaty tomato sauce.",
+      "ingredients": [
+        "Spaghetti",
+        "Ground beef",
+        "Tomatoes",
+        "Garlic",
+        "Onion",
+        "Olive oil",
+        "Parmesan cheese"
+      ],
+      "time": "45 minutes",
+      "calories": 600
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/bgrnxmg3/Instant-Pot-Chicken-Curry-Recipe.png",
+      "id": 2,
+      "recipe_name": "Chicken Curry",
+      "description": "A flavorful chicken curry with a mix of spices, perfect with rice.",
+      "ingredients": [
+        "Chicken",
+        "Curry powder",
+        "Coconut milk",
+        "Onions",
+        "Garlic",
+        "Ginger",
+        "Rice"
+      ],
+      "time": "1 hour",
+      "calories": 750
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/LzFpctST/www-downshiftology.png",
+      "id": 3,
+      "recipe_name": "Vegetable Soup",
+      "description": "A hearty, nutritious soup made with a variety of fresh vegetables.",
+      "ingredients": [
+        "Carrots",
+        "Celery",
+        "Tomatoes",
+        "Potatoes",
+        "Spinach",
+        "Vegetable broth"
+      ],
+      "time": "30 minutes",
+      "calories": 200
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/F4Kd5X0T/image.png ",
+      "id": 4,
+      "recipe_name": "Pancakes",
+      "description": "Fluffy and light pancakes, perfect for a weekend breakfast.",
+      "ingredients": [
+        "Flour",
+        "Eggs",
+        "Milk",
+        "Baking powder",
+        "Sugar",
+        "Butter",
+        "Maple syrup"
+      ],
+      "time": "20 minutes",
+      "calories": 350
+    },
+    {
+        "recipe_img": "https://i.ibb.co.com/LzFpctST/www-downshiftology.png",
+        "id": 5,
+        "recipe_name": "Vegetable Soup",
+        "description": "A hearty, nutritious soup made with a variety of fresh vegetables.",
+        "ingredients": [
+          "Carrots",
+          "Celery",
+          "Tomatoes",
+          "Potatoes",
+          "Spinach",
+          "Vegetable broth"
+        ],
+        "time": "30 minutes",
+        "calories": 200
+      },
+      {
+        "recipe_img": "https://i.ibb.co.com/gMh8zrvk/spaghetti-bolognese-7517639-1280.png",
+        "id": 6,
+        "recipe_name": "Spaghetti Bolognese",
+        "description": "A classic Italian pasta dish made with a rich, meaty tomato sauce.",
+        "ingredients": [
+          "Spaghetti",
+          "Ground beef",
+          "Tomatoes",
+          "Garlic",
+          "Onion",
+          "Olive oil",
+          "Parmesan cheese"
+        ],
+        "time": "45 minutes",
+        "calories": 600
+      }
+  ]
