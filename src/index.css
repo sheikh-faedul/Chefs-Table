@@ -7,10 +7,4 @@ body{
     font-style: normal;   
        
 }
- .bg{
-    background-image: url(./assets/images/banner.png.png);
-    height: 500px ;
-    width: 900px;
-    background-size:cover;
-
- }
+  
