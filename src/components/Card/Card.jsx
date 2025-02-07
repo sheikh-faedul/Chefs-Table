@@ -2,8 +2,8 @@
  import { IoIosTime } from "react-icons/io";
  import { FaGripfire } from "react-icons/fa";
  
- const card = ({card}) => {
-    const{recipe_img,recipe_name,description,ingredients,time,calories}=card
+ const card = ({card,handleWantCook}) => {
+    const{id,recipe_img,recipe_name,description,ingredients,time,calories}=card
     return (
         <div className='p-3'>
             
@@ -22,7 +22,7 @@
              <p className='flex'><IoIosTime ></IoIosTime> {time}</p>   
              <p className='flex'><FaGripfire></FaGripfire>{calories}</p>   
            </div>
-            <button className='bg-green-400 m-2 p-3 text-xl text-black rounded-2xl'>Want to cook</button> 
+            <button onClick={()=>handleWantCook(card,id)} className='bg-green-400 m-2 p-3 text-xl text-black rounded-2xl'>Want to cook</button> 
             
         </div>
     );

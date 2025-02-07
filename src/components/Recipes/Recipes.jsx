@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
  import Card from "../card/card";
-const Recipes = () => {
+const Recipes = ({handleWantCook}) => {
     const [cards,setCards]= useState([]);
  
     useEffect(()=>{
@@ -11,7 +11,7 @@ const Recipes = () => {
     return ( 
         <div className="w-2/3 grid grid-cols-2 gap-2">
            {
-             cards.map(card=> <Card card={card}></Card>)
+             cards.map(card=> <Card card={card} handleWantCook={handleWantCook}></Card>)
            }  
         </div>
     )
